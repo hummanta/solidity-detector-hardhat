@@ -1,0 +1,17 @@
+name = "solidity-detector-hardhat"
+homepage = "https://hummanta.github.io/solidity-detector-hardhat"
+repository = "https://github.com/hummanta/solidity-detector-hardhat"
+language = "solidity"
+kind = "detector"
+description = "Detects Solidity projects by verifying if a package.json file exists in the specified path and if there is at least one .sol file in the directory."
+targets = [
+    "x86_64-unknown-linux-gnu",
+    "aarch64-unknown-linux-gnu",
+    "x86_64-apple-darwin",
+    "aarch64-apple-darwin",
+    "x86_64-pc-windows-msvc",
+]
+latest = "v0.1.0"
+
+[releases]
+"v0.1.0" = "release-v0.1.0.toml"
