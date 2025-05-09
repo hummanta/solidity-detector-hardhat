@@ -33,7 +33,7 @@ impl Detector for SolidityHardhatDetector {
             .any(|entry| entry.path().extension().is_some_and(|ext| ext == "sol"));
 
         if package_json_exists && has_sol_file {
-            DetectResult::pass("Solidity".to_string())
+            DetectResult::pass("Solidity".to_string(), "sol".to_string())
         } else {
             DetectResult::fail()
         }
