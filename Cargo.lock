@@ -229,7 +229,7 @@ dependencies = [
 
 [[package]]
 name = "solidity-detector-hardhat"
-version = "0.1.9"
+version = "0.1.10"
 dependencies = [
  "hmt-detection",
  "walkdir",
