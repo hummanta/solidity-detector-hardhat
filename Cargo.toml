@@ -1,6 +1,6 @@
 [package]
 name = "solidity-detector-hardhat"
-version = "0.1.13"
+version = "0.1.14"
 edition = "2021"
 
 [dependencies]
